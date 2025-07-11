@@ -94,7 +94,7 @@ export default function Home() {
     }
   };
   return (
-    <div className="relative min-h-screen bg-gray-50">
+    <div className="relative min-h-screen">
       <motion.button
         animate={{ scale: [1, 1.1, 1] }}
         transition={{ repeat: Infinity, duration: 1.8 }}
@@ -116,7 +116,7 @@ export default function Home() {
             <div className="flex-1 p-4 overflow-y-auto space-y-3 text-sm">
               {messages.map((msg, idx) =>
                 msg.sender === "carousel" ? (
-                  <div key={idx} className="p-2 rounded-xl shadow-inner">
+                  <div key={idx} className="bg-gray-50 p-2 rounded-xl shadow-inner">
                     <Swiper
                       modules={[Navigation, Pagination]}
                       spaceBetween={20}
