@@ -110,7 +110,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 100 }}
             transition={{ duration: 0.3 }}
-            className="fixed bottom-20 right-6 w-[360px] min-h-[70vh] max-h-[70vh] rounded-2xl bg-white shadow-2xl flex flex-col overflow-hidden z-50 border border-gray-200"
+            className="fixed bottom-20 right-6 w-[360px] min-h-[75vh] max-h-[75vh] rounded-2xl bg-white shadow-2xl flex flex-col overflow-hidden z-50 border border-gray-200"
           >
             <div className="bg-blue-600 text-white px-4 py-3 font-semibold">🛍️ Ecom ChatBot</div>
             <div className="flex-1 p-4 overflow-y-auto space-y-3 text-sm">
